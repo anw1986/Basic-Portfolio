@@ -2,32 +2,40 @@
 <html>
     <head>
         <title>Contact</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
-    <body>
-        <h1>Ahmed Waheed</h1>
+    <body background="./assets/images/dust_scratches.png">
 
-        <h2>Contact</h2>
+        <div class="bottom_border">
+            <div class="header">
+                <h1>Ahmed Waheed</h1>
+                <ul class="nav">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div style="clear: both"></div>
+        </div>
 
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
 
-        <br>
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="">
+                Name <br>
+                <input type="text" name="name" id="name"><br>
+                E-mail <br>
+                <input type="email" name="email" id="email"><br>
+                Message <br>
+                <input type="text" name="msg" id="msg"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+        <div class="footer">
+            <footer>Copyright</footer>
+        </div>
 
-        <p>Please feel free to reach out</p>
-
-        <form action="">
-            Name <br>
-            <input type="text" name="name"><br>
-            E-mail <br>
-            <input type="email" name="email"><br>
-            Message <br>
-            <input type="text" name="name"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-
-        <footer>Copyright</footer>
     </body>
 </html>

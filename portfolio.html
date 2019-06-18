@@ -2,29 +2,64 @@
 <html>
     <head>
         <title>Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
-    <body>
-        <h1>Ahmed Waheed</h1>
+    <body background="./assets/images/dust_scratches.png">
 
-        <h2>Portfolio</h2>
+        <div class="bottom_border">
+            <div class="header">
+                <h1>Ahmed Waheed</h1>
+                <ul class="nav">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div style="clear: both"></div>
+        </div>
 
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <div class="container">
+            <h2>Portfolio</h2>
+            <br>
+            <P>Projects I am currently working on</P>
+            <br>
 
-        <br>
+            <div class="row">
+                <div class="column">
+                    <a href="https://scratch.mit.edu/projects/311975617" target="_blank"><img id="portfolio_img" src="./assets/images/portfolio_scratch.jpg" alt="Scratch" ></a>
+                    <div class="overlay box-1"><strong>Scratch Games</strong></div>
+                </div>
+                <div class="column">
+                    <a href=""><img id="portfolio_img" src="./assets/images/intelligent_investment.jpg" alt="investment" ></a>
+                    <div class="overlay box-2"><strong> Intelligent Investment</strong></div>
+                </div>
+            </div>
 
-        <P>Projects I am currently working on</P>
+            <div class="row">
+                <div class="column">
+                    <a href=""><img id="portfolio_img" src="./assets/images/ml_in_finance.jpg" alt="machine learning in finance" ></a>
+                    <div class="overlay box-3"><strong>ML & Finance</strong></div>
+                </div>
+                <div class="column">
+                    <a href=""><img id="portfolio_img" src="./assets/images/hangman_2.png" alt="hangman" ></a>
+                    <div class="overlay box-3"><strong>Hangman</strong></div>
+                </div>
+            </div>
 
-        <a href=""><img src="./assets/images/portfolio_scratch.jpg" alt="Scratch"></a>
-        <a href="">The Intelligent Investor</a>
-        <a href="">Machine learning in Financial trading</a>
-        <a href="">Hangman</a>
-        <a href="">Trivia Game</a>
-        
-        <footer>Copyright</footer>
+            <div class="row">
+                <div class="column">
+                    <a href=""><img id="portfolio_img" src="./assets/images/trivia.jpg" alt="trivia" ></a>
+                    <div class="overlay box-4"><strong>Trivia</strong></div>
+                </div>
+            </div>
+            
+            
+        </div>
+  
+        <div class="footer">
+            <footer>Copyright</footer>
+        </div>
 
     </body>
 
