@@ -20,7 +20,7 @@ h1{
     margin: 0 auto;
 }
 
-/* using a div to create a seperate bottom header */
+/* using a div to create a seperate bottom header border */
 .bottom_border{
     border-bottom: 5px solid #cccccc;
     background-color: #ffffff;
@@ -42,7 +42,7 @@ h1{
 }
 
 .nav li:not(:first-child)::before{
-    content: " | ";
+    content: "|";
 }
 
 /* Format hyperlinks */
@@ -56,6 +56,7 @@ body{
     color: #777777;
 }
 
+/* H2 header comments */
 h2{
     color: #4aaaa5;
     /* padding: 20px; */
@@ -68,17 +69,19 @@ h2{
     height: 200px;
     float: left;
     margin: 20px;
+    margin-bottom: 0px;
+
 }
 
-/* container for the  */
+/* container for the bio-ino*/
 .container{
     background-color: #ffffff;
     width: 960px;
     margin: 0 auto;
     line-height: 32px;
     padding: 20px;
-    /* float: left */
     margin-top: 20px;
+    /* position: relative; */
 }
 
 .bio-text{
