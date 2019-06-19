@@ -20,12 +20,14 @@ h1{
     margin: 0 auto;
 }
 
+/* using a div to create a seperate bottom header */
 .bottom_border{
     border-bottom: 5px solid #cccccc;
     background-color: #ffffff;
     margin: 0
 }
 
+/* format for the nav buttons */
 .nav{
     width: 33%;
     float: left;
@@ -43,9 +45,12 @@ h1{
     content: " | ";
 }
 
+/* Format hyperlinks */
+a{
+    color: #777777
+}
 
-
-
+/* body specs */
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -65,6 +70,7 @@ h2{
     margin: 20px;
 }
 
+/* container for the  */
 .container{
     background-color: #ffffff;
     width: 960px;
